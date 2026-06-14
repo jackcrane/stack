@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@template/auth": ["packages/auth/src/index.ts"],
+      "@template/config": ["packages/config/src/index.ts"],
+      "@template/db": ["packages/db/src/index.ts"],
+      "@template/errors": ["packages/errors/src/index.ts"],
+      "@template/logger": ["packages/logger/src/index.ts"],
+      "@template/mail": ["packages/mail/src/index.ts"],
+      "@template/observability": ["packages/observability/src/index.ts"],
+      "@template/queue": ["packages/queue/src/index.ts"],
+      "@template/rpc": ["packages/rpc/src/index.ts"],
+      "@template/storage": ["packages/storage/src/index.ts"],
+      "@template/test-utils": ["packages/test-utils/src/index.ts"],
+      "@template/ui": ["packages/ui/src/index.ts"]
+    }
+  }
+}

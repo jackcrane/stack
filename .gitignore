@@ -1,0 +1,17 @@
+node_modules
+.turbo
+dist
+coverage
+storybook-static
+.DS_Store
+.env
+.env.local
+.env.*.local
+app/.vite
+app/storybook-static
+api/dist
+packages/*/dist
+prisma/dev.db
+infra/docker/volumes
+cypress/videos
+cypress/screenshots

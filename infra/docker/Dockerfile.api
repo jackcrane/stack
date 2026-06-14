@@ -1,0 +1,15 @@
+FROM node:24-alpine
+WORKDIR /workspace
+RUN corepack enable
+
+COPY package.json pnpm-workspace.yaml turbo.json tsconfig.base.json tsconfig.json prisma.config.ts ./
+COPY prisma ./prisma
+COPY api/package.json api/package.json
+COPY packages ./packages
+COPY api ./api
+
+RUN pnpm install --filter @template/api... --frozen-lockfile=false
+RUN pnpm prisma generate
+RUN pnpm --filter @template/api build
+
+CMD ["node", "api/dist/server.js"]

@@ -1,0 +1,6 @@
+#cloud-config
+packages:
+  - docker.io
+  - docker-compose-plugin
+runcmd:
+  - mkdir -p /opt/stack-template-stateful

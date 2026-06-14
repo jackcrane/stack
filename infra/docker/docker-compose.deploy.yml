@@ -1,0 +1,14 @@
+services:
+  app:
+    image: ${DOCKERHUB_USERNAME}/stack-template-app:${IMAGE_TAG:-latest}
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+
+  api:
+    image: ${DOCKERHUB_USERNAME}/stack-template-api:${IMAGE_TAG:-latest}
+    env_file:
+      - .env
+    ports:
+      - "4000:4000"

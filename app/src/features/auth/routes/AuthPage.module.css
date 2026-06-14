@@ -1,0 +1,13 @@
+.wrapper {
+  max-width: 520px;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.footer {
+  color: rgba(23, 50, 77, 0.72);
+  font-size: 0.95rem;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@template/errors",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --project tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@trpc/server": "^11.0.0-rc.502",
+    "zod": "^3.23.8"
+  }
+}

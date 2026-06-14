@@ -1,0 +1,3 @@
+display_name: Template Implementation
+short_description: Extend this repo while preserving its full-stack template architecture and delivery conventions.
+default_prompt: Implement changes in this repository while preserving the app/api/packages split, shared package boundaries, Prisma 7 conventions, tRPC contracts, Better Auth baseline, and pragmatic testing expectations.

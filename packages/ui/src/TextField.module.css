@@ -1,0 +1,19 @@
+.field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #17324d;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid rgba(23, 50, 77, 0.18);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: #17324d;
+}

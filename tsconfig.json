@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "composite": false
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "api/**/*.ts",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "prisma/**/*.ts",
+    "cypress/**/*.ts"
+  ]
+}
