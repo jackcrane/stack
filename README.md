@@ -1,6 +1,6 @@
 # Stack Template
 
-Opinionated full-stack template for consistent web applications using `app/` for the React frontend and `api/` for the Express backend.
+Opinionated full-stack template for consistent web applications using `app/` for the React frontend and `api/` for the Express backend, with JavaScript as the default language everywhere practical.
 
 ## Included stack
 
@@ -30,7 +30,7 @@ infra/               Docker and Terraform assets
 ## Shared packages
 
 - `@template/auth`: Better Auth factory and server helpers
-- `@template/config`: typed environment parsing
+- `@template/config`: environment parsing
 - `@template/db`: Prisma 7 client factory
 - `@template/errors`: domain and transport error utilities
 - `@template/logger`: structured logging primitives

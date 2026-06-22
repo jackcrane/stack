@@ -18,7 +18,7 @@ Follow the repository shape strictly:
 - Keep Express handlers, tRPC procedures, and React route modules thin.
 - Prefer service and adapter layers for business logic and side effects.
 - Preserve Prisma 7 conventions:
-  - ESM-first TypeScript
+  - ESM-first JavaScript
   - explicit generated client output
   - driver adapter usage for Postgres
 - Preserve auth conventions:
